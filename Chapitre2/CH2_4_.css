@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+.article1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-width: 10px;
+    background-color: blue;
+    border-style: dashed;
+}
+
+.article2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-width: 10px;
+    background-color: green;
+    border-style: dashed;
+}
+
+.article3 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-width: 10px;
+    background-color: deeppink;
+    border-style: dashed;
+}
