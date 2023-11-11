@@ -1,28 +1,56 @@
 body {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     background-color: grey;
     color: white;
 }
 
 .article1 {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     margin-bottom: 30px;
     margin-top: 30px;
+    padding: 20px;
+    background-clip: border-box;
     border-width: 10px;
+    border-color: orange;
     background-color: blue;
     border-style: dashed;
+    background-image: url('pingouin.png');
+    background-repeat: no-repeat ;
+    background-size: 180px;
+    background-position: bottom -27px left -22px;
+    background-origin: padding-box;
 }
 
 .article2 {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     margin-bottom: 30px;
     margin-top: 30px;
+    padding: 20px;
+    background-clip: padding-box;
     border-width: 10px;
+    border-color: orange;
     background-color: green;
     border-style: dashed;
+    background-image: url('pingouin.png');
+    background-repeat: no-repeat ;
+    background-size: 280px;
+    background-position: bottom -17px left -10px ;
+    background-origin: border-box;
 }
 
 .article3 {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     margin-bottom: 30px;
     margin-top: 30px;
+    padding: 20px;
     border-width: 10px;
-    background-color: deeppink;
     border-style: dashed;
+    background-clip: content-box;
+    background-color: deeppink;
+    border-color: orange;
+    background-image: url('pingouin.png');
+    background-repeat: no-repeat ;
+    background-size: 124px;
+    background-position: bottom -13px left -10px ;
+    background-origin: content-box;
 }
