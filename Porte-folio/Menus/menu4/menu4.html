@@ -1,28 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-
     <meta charset="UTF-8">
+    <title>Title</title>
     <link href="menu4.css" rel="stylesheet">
-
 </head>
+
 <body>
-<input type="checkbox" id="active">
-<label for="active" class="menu-btn"><span></span></label>
-<div class="wrapper">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Feedback</a></li>
+<input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+<label for="main-navigation-toggle">
+    <span></span>
+</label>
+
+<nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+        <li class="menu__item">
+            <a class="menu__link" href="#">Home</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#">About</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#">Clients</a>
+            <ul class="submenu">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Burger King</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Southwest Airlines</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Levi Strauss</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#">Services</a>
+            <ul class="submenu">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Print Design</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Web Design</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Mobile App Development</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#">Contact</a>
+        </li>
     </ul>
-</div>
-<div class="content">
-    <div class="title">
-        Fullscreen Overlay Navigation Bar</div>
-    <p>
-        with HTML & CSS Neon Effect</p>
-</div>
+</nav>
+
+<main class="page-container">
+    <h1>Maxime Sermet</h1>
+    <p>Click the toggle to open the menu and see the magic. This experiment relies on only CSS to style, animate and position elements.</p>
+    <p>The technique used to select siblings based on the element being hovered extends from the work done by <a href="https://codepen.io/giana">Giana</a> in <a href="https://codepen.io/giana/pen/dWJzMK/">this pen</a>.</p>
+    <p>Created for the <a href="https://codepen.io/challenges/2019/august/">Navigation with Sub-Navigation</a> Fork This CodePen Challenge in August 2019. The code within has not been browser tested. This was made to experience a quick thrill with the power of CSS.<p>
+</main>
 </body>
 </html>
