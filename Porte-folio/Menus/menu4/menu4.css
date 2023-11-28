@@ -165,7 +165,7 @@ a {
 }
 .menu > .menu__item {
     font-family: var(--font-family-secondary);
-    font-size: 10vmin;
+    font-size: 7vmin;
 }
 .submenu {
     left: 0;
@@ -221,7 +221,7 @@ a {
 .menu__link::before, .menu__link::after {
     content: '';
     background-color: var(--color-light);
-    height: 50%;
+    height: 20%;
     left: 0;
     position: absolute;
     transform: translateX(-110%);
