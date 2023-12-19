@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background: #141414 url("btp.webp");
+    background-size: cover;
+    background-position: 60%;
+    height: 100vh;
+}
+svg {
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    left: 50%;
+    margin-left: -225px;
+    z-index: -1;
+}
