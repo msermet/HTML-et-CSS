@@ -8135,7 +8135,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #696969;   /*couleur du menu*/
+  background: linear-gradient(to top,black,indigo);   /*couleur du menu*/
 }
 
 
@@ -10836,7 +10836,8 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: black;
+  font-family: Verdana, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -10878,14 +10879,14 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  padding-top: 2.5rem;
+  padding-bottom: 2rem;
 }
 
 .retour {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 
 #sideNav .navbar-toggler:focus {
